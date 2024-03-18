@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-learn</title>
+    <style>
+        header{
+            background-color: peru;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            border: 2px solid black;
+        }
+        footer{
+            background-color: peru;
+            color: white;
+            text-align: center;
+            padding: 5px;
+            border: 2px solid black;
+        }
+        section{
+            height: 470px;
+            display: grid;
+            grid-template-columns: 4fr 9fr;
+        }
+        main{
+            margin-top: 20px;
+            
+        }
+        ul{
+            list-style: none;
+
+        }
+        iframe{
+            height: 430px;
+            width: 100%;
+            border: none;
+        }
+        li{
+            background-color: peru;
+            color: white;
+            padding: 10px;
+            margin-bottom: 30px;
+            border-radius: 10px;
+            font-size: 20px;
+            margin-left: -40px;
+            width: 300px;
+            border: 2px solid black;
+
+        }
+        li:hover{
+            background-color: aqua;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+
+        </style>
+</head>
+<body>
+    <header>
+        <h2>E-Learn Web</h2>
+        </header>
+        <section>
+            <nav>
+                <ul>
+                    <li><a href="home.html" target="f-body">Home</a></li>
+                    <li><a href="python.html" target="f-body">Pytho Full-Stack Devlopment</a></li>
+                    <li><a href="ui.html" target="f-body">UI Full-Stack Devlopment</a></li>
+                    <li><a href="aws.html" target="f-body">AWS Web-Servicess</a></li>
+                    </ul>
+                </nav>
+                <main>
+                    <iframe name="f-body" src="home.html"></iframe>
+                    </main>
+        </section>
+        <footer>
+            &copy;Copyright 2023
+            </footer>
+</body>
+</html>
